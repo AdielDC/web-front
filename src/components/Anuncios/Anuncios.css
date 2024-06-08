@@ -1,0 +1,115 @@
+.anuncios-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anuncios-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anuncios-header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .anuncios-header button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .anuncios-header button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .anuncios-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .anuncio-item {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anuncio-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .anuncio-item p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .anuncio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anuncio-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anuncio-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .anuncio-form form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anuncio-form label {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .anuncio-form input[type="text"],
+  .anuncio-form input[type="file"],
+  .anuncio-form input[type="date"] {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .anuncio-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .anuncio-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
